@@ -1,8 +1,11 @@
+* {
+  box-sizing: border-box;
+}
 .container {
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
   flex-direction: column;
   font-family: 'Bangers', cursive;
   letter-spacing: 1.2rem;
@@ -10,7 +13,17 @@
 
 h1 {
   font-size: 3rem;
+  margin-bottom: -10px;
 }
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
+}
+p {
+  letter-spacing: .6rem;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-shadow: .7px .7px #aaa;
 }
