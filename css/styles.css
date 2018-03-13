@@ -14,12 +14,20 @@
 h1 {
   font-size: 3rem;
   margin-bottom: -10px;
+  opacity: 0;
+  animation: 3s fadein 0.5s forwards;
 }
 h2 {
   font-size: 2.4rem;
+  opacity: 0;
+  animation:3s fadein 1s forwards;
 }
 p {
   letter-spacing: .6rem;
+}
+#skills {
+  opacity: 0;
+  animation: 3s fadein 1.5s forwards;
 }
 a {
   text-decoration: none;
@@ -31,5 +39,17 @@ a:visited {
   color: black;
 }
 .icons-social {
-  margin-top: 40px
+  margin-top: 40px;
+  opacity: 0;
+  animation: 3s fadein 2s forwards;
+}
+#alexnielsen {
+  opacity: 0;
+  animation: 3s fadein 2.5s forwards;
+}
+
+@keyframes fadein {
+  100% {
+      opacity: 1;
+  }
 }
